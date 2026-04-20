@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Assignment 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f8f8f8;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+            margin-right: 100px;
+            float: left;
+        }
+
+        th, td {
+            border: 2px solid #333;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(1) td,
+        tr:nth-child(3) td {
+            background-color: #ffeb3b;   /* 黃色 */
+        }
+
+        tr:nth-child(2) td {
+            background-color: #f0f0f0;   /* 淺灰色 */
+        }
+
+        .fixed-div {
+            position: fixed;
+            top: 150px;
+            right: 150px;
+            width: 250px;
+            height: 180px;
+            border: 4px solid #2e7d32;
+            background-color: white;
+            padding: 20px;
+            font-size: 18px;
+            line-height: 1.4;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>3. 作業範例</h2>
+
+    <!-- 表格 -->
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <!-- 固定定位的 div -->
+    <div class="fixed-div">
+        This div element has<br>
+        position: fixed;
+    </div>
+
+</body>
+</html>
